@@ -1,0 +1,3 @@
+A Scala code sample for Project Euler.
+
+To run and test it use SBT invoke: 'sbt run'
