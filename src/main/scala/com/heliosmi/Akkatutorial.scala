@@ -1,7 +1,9 @@
 package com.heliosmi
 
-import scala.util.logging.Logged
-import com.typesafe.scalalogging.slf4j.Logging
+import com.typesafe.scalalogging.slf4j.LazyLogging
+
+
+
 /*
 import akka.actor._
 import akka.pattern.ask
@@ -38,7 +40,7 @@ object Akkatutorial extends App {
   system.shutdown()
 }
 */
-object Akkatutorial extends App with Logging {
+object Akkatutorial extends App with LazyLogging {
   println("Hello, world!")
-  logger.debug("Saurabh");
+  logger.debug("Saurabh Maheshwari");
 }

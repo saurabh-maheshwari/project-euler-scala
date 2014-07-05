@@ -1,11 +1,11 @@
 package com.heliosmi.euler
 
 import org.scalatest.Suite
-import com.typesafe.scalalogging.slf4j.Logging
 import org.scalatest.Spec
 import scala.math.BigInt
+import com.typesafe.scalalogging.slf4j.LazyLogging
 
-class EulerMathTest extends Suite with Logging {
+class EulerMathTest extends Suite with LazyLogging {
 
   /**
    * Problem 1
