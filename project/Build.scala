@@ -9,7 +9,7 @@ object AkkatutorialBuild extends Build {
     settings = Project.defaultSettings ++ Seq(
       name := "ProjectEulerScala",
       organization := "com.heliosmi",
-      version := "0.2-SNAPSHOT",
+      version := "0.3-SNAPSHOT",
       scalaVersion := "2.11.1",
       libraryDependencies += "com.typesafe.akka" % "akka-actor_2.11" % "2.3.3",
       libraryDependencies += "com.typesafe.scala-logging" %% "scala-logging-slf4j" % "2.1.2",
